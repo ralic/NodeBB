@@ -29,7 +29,8 @@ var	pidFilePath = __dirname + '/pidfile',
 		css: {
 			cache: undefined,
 			acpCache: undefined
-		}
+		},
+		templatesCompiled: false
 	};
 
 Loader.init = function(callback) {
@@ -101,6 +102,12 @@ Loader.addWorkerEvents = function(worker) {
 						});
 					}
 
+					if (Loader.templatesCompiled && !worker.isPrimary) {
+						worker.send({
+							action: 'templates:compiled'
+						});
+					}
+
 
 				break;
 				case 'restart':
@@ -130,6 +137,8 @@ Loader.addWorkerEvents = function(worker) {
 					}, worker.pid);
 				break;
 				case 'templates:compiled':
+					Loader.templatesCompiled = true;
+
 					Loader.notifyWorkers({
 						action: 'templates:compiled',
 					}, worker.pid);
