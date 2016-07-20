@@ -1,3 +1,4 @@
+node nodebb reset -p nodebb-plugin-session-sharing
 cd db
 redis-server redis.conf &
 cd ..
