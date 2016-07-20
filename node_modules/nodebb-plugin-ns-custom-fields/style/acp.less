@@ -1,0 +1,99 @@
+@import "vars";
+@import "material-color/material-color-prefixed";
+
+.cf-list {
+  .cf-item {
+    height: @cs-line-height;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: @cs-padding-small 0;
+
+    .cf-field-actions {
+      flex: 1 0 auto;
+
+      .fa + .fa {
+        margin-left: @cs-margin-small;
+      }
+    }
+
+    .cf-field-name {
+      flex: 0 0 30%;
+      font-weight: bold;
+    }
+
+    .cf-field-key {
+      flex: 0 0 30%;
+    }
+
+    .cf-field-type {
+      flex: 0 0 25%;
+    }
+  }
+
+  .cf-separator {
+    width: 100%;
+    border-top: 1px dashed @md-clr-blue-grey-100;
+  }
+
+  .cf-header {
+    color: @md-clr-grey-500;
+  }
+
+  .custom-fields-item-controls {
+    font-size: 1.2em;
+    cursor: pointer;
+    display: inline;
+  }
+
+  .cf-color-success {
+    color: @md-clr-green-500;
+  }
+
+  .custom-fields-color-danger {
+    color: @md-clr-red-500;
+  }
+
+  .field-lower {
+    text-transform: lowercase;
+  }
+}
+
+.options-manager {
+  margin: @cs-margin 0;
+
+  .options-controls {
+    margin-top: @cs-margin;
+  }
+}
+
+.options-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .options-list-item {
+    padding: @cs-padding-small;
+    background: @md-clr-grey-50;
+
+    .fa {
+      color: @md-clr-grey-300;
+    }
+
+    .fa-times {
+      color: @md-clr-red-500;
+      cursor: pointer;
+    }
+
+    span {
+      pointer-events: none;
+    }
+  }
+
+  .options-placeholder {
+    background: @md-clr-green-50;
+    padding: @cs-padding-small;
+    color: @md-clr-grey-800;
+  }
+}
+

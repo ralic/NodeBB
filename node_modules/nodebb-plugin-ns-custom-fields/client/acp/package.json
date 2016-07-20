@@ -1,0 +1,61 @@
+{
+  "name": "custom-fields-admin-panel",
+  "version": "1.0.0",
+  "description": "Client code for admin panel controls",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production browserify -t envify -g uglifyify index.js -o ../../public/js/acp.js",
+    "watch": "watchify index.js -o ../../public/js/acp.js --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "acp",
+    "nodebb"
+  ],
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify",
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "app": "global:app",
+    "jquery": "global:$",
+    "socket": "global:socket",
+    "StripeCheckout": "global:StripeCheckout",
+    "define": "global:define",
+    "bootstrap": {
+      "exports": "global:bootstrap",
+      "depends": [
+        "jquery"
+      ]
+    },
+    "bootbox": {
+      "exports": "global:bootbox",
+      "depends": [
+        "jquery",
+        "bootstrap"
+      ]
+    }
+  },
+  "author": "Nicolas Siver",
+  "license": "MIT",
+  "dependencies": {
+    "browser-request": "^0.3.3",
+    "classnames": "^2.2.3",
+    "flux": "^2.0.1",
+    "keymirror": "^0.1.1",
+    "react": "^0.14.7",
+    "react-dnd": "^2.1.2",
+    "react-dnd-html5-backend": "^2.1.2",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "envify": "^3.4.0",
+    "reactify": "^1.1.0",
+    "uglifyify": "^3.0.1"
+  }
+}
