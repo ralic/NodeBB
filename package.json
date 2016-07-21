@@ -49,11 +49,15 @@
     "mousetrap": "^1.5.3",
     "nconf": "~0.8.2",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "nodebb-plugin-audio-embed": "^1.0.3",
     "nodebb-plugin-cards": "^0.2.1",
     "nodebb-plugin-category-notifications": "^2.0.1",
     "nodebb-plugin-composer-default": "4.0.10",
     "nodebb-plugin-custom-pages": "^0.3.3",
+=======
+    "nodebb-plugin-composer-default": "4.0.11",
+>>>>>>> ecafd87... up composer
 =======
     "nodebb-plugin-composer-default": "4.0.11",
 >>>>>>> ecafd87... up composer
