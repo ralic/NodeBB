@@ -1,3 +1,5 @@
+dev.log
+site.log
 db/dump.rdb
 npm-debug.log
 sftp-config.json
