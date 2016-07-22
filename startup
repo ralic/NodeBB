@@ -1,0 +1,23 @@
+start on runlevel [2345]
+stop on runlevel [06]
+ 
+ 
+respawn 
+respawn limit 99 5
+#respawn is used to start the nodejs again, even if it fails.
+ 
+env NODE_ENV=development
+ 
+#script to start before actual script, pre script
+#pre-start script
+#cd /home/etech/public_html/pricegenie.in/  #directory where my script is present
+#exec /usr/bin/sudo /usr/bin/git pull -u origin master
+#so that i get latest version of my code always
+#end script
+ 
+script
+ 
+#export HOME="/home/bitnami"
+exec /usr/bin/sudo /bin/node /home/ec2-user/newTHAA/nodebb dev >> dev.log
+ 
+end script
