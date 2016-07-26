@@ -3,5 +3,5 @@ cd db
 redis-server redis.conf &
 cd ..
 sudo node nodebb dev &
-# node nodebb dev >dev.log & 
+# node nodebb dev >>dev.log & 
  
