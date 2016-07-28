@@ -6,179 +6,167 @@ For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
 
 Clustering enabled: Spinning up 1 process(es).
 
-22/7 18:45 [12069] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
-22/7 18:45 [12069] - [32minfo[39m: Time: Fri Jul 22 2016 18:45:07 GMT-0400 (EDT)
-22/7 18:45 [12069] - [32minfo[39m: Initializing NodeBB v1.1.0
-22/7 18:45 [12069] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
-22/7 18:45 [12069] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
-22/7 18:45 [12069] - [36mverbose[39m: Checking dependencies for outdated modules
-[outdated] nodebb-plugin-composer-default installed v4.0.10, package.json requires 4.0.11
-[outdated] nodebb-plugin-markdown installed v6.0.0, package.json requires 6.0.1
-22/7 18:45 [12069] - [36mverbose[39m: [notifications.init] Registering jobs.
-22/7 18:45 [12069] - [32minfo[39m: [themes] Using theme nodebb-theme-material
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Initializing plugins system
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 2 js file(s) for plugin nodebb-theme-material
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-theme-material
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-audio-embed
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-audio-embed
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-cards
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-cards
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-cards
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-category-notifications
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-notifications
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-composer-default
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 10 AMD-style module(s) for plugin nodebb-plugin-composer-default
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-composer-default
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-sort-by-votes
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-dbsearch
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-custom-pages
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-custom-pages
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-custom-pages
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-deny-moderator-access
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-email
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-embed-gmap
+28/7 19:36 [6432] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
+28/7 19:36 [6432] - [32minfo[39m: Time: Thu Jul 28 2016 19:36:01 GMT-0400 (EDT)
+28/7 19:36 [6432] - [32minfo[39m: Initializing NodeBB v1.1.0
+28/7 19:36 [6432] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
+28/7 19:36 [6432] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
+28/7 19:36 [6432] - [36mverbose[39m: Checking dependencies for outdated modules
+28/7 19:36 [6432] - [36mverbose[39m: [notifications.init] Registering jobs.
+28/7 19:36 [6432] - [32minfo[39m: [themes] Using theme nodebb-theme-material
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Initializing plugins system
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 2 js file(s) for plugin nodebb-theme-material
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-theme-material
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-theme-material
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-audio-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-audio-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-cards
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-cards
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-cards
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-category-notifications
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-notifications
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-composer-default
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 10 AMD-style module(s) for plugin nodebb-plugin-composer-default
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-composer-default
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-sort-by-votes
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-dbsearch
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-custom-pages
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-custom-pages
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-custom-pages
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-deny-moderator-access
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-email
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-embed-gmap
 info: EmbedGMap settings loaded
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-embed-gmap
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-apple
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-emoji-extended
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-emoji-extended
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-extended
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-essence
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-essence
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-essence
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-one
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-featured-threads
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-featured-threads
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-featured-threads
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-async
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-async
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-github-embed
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-github-embed
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-lodash
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-lodash
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-google-analytics
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-analytics
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-forms
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-search
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-htmlcleaner
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-ignore-users
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-ignore-users
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-ignore-users
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-markdown
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-markdown
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-markdown
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 AMD-style module(s) for plugin nodebb-plugin-markdown
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-markdown
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-meetup
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-meetup
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-meetup
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-meetup
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-mentions
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-mentions
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-mentions
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-mentions-emoji
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-mentions-emoji
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 less file(s) for plugin nodebb-plugin-merge-subtopics
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-merge-subtopics
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-merge-subtopics
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-merge-subtopics
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-newuser-approval
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-newuser-approval
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-newsletter
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-newsletter
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-newsletter
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 3 less file(s) for plugin nodebb-plugin-ns-custom-fields
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-ns-custom-fields
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-ns-custom-fields
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-ns-custom-fields
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-ns-likes
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 2 js file(s) for plugin nodebb-plugin-ns-likes
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-ns-likes
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-ns-login
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 less file(s) for plugin nodebb-plugin-ns-utils
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-ns-utils
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-ns-utils
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sanitizehtml
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-rss
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-shortcuts
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-shortcuts
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-shortcuts
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-soundpack-default
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-spam-be-gone
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-spam-be-gone
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-spam-be-gone
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-sso-facebook
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-facebook
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-sso-github
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-github
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-sso-google
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-google
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-subcategories-checker
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 less file(s) for plugin nodebb-plugin-subcategories-checker
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-subcategories-checker
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-subcategories-checker
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-subcategories-checker
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-sso-twitter
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-twitter
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-text2speech
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-text2speech
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-subcategory-reordering
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-subcategory-reordering
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-topic-tags
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-user-invitations
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-user-invitations
-22/7 18:45 [12069] - [32minfo[39m: [User Invitations] Synced settings:
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-embed-gmap
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-apple
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-emoji-extended
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-emoji-extended
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-extended
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-essence
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-essence
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-essence
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-one
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-featured-threads
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-featured-threads
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-featured-threads
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-github-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-github-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-lodash
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-lodash
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-google-analytics
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-analytics
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-forms
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-htmlcleaner
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-markdown
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-markdown
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-markdown
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 AMD-style module(s) for plugin nodebb-plugin-markdown
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-markdown
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-meetup
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-meetup
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-meetup
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-meetup
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-mentions
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-mentions
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-mentions
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-mentions-emoji
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-mentions-emoji
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 less file(s) for plugin nodebb-plugin-merge-subtopics
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-merge-subtopics
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-merge-subtopics
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-merge-subtopics
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-newuser-approval
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-newuser-approval
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-newsletter
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-newsletter
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-newsletter
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 3 less file(s) for plugin nodebb-plugin-ns-custom-fields
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-ns-custom-fields
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-ns-custom-fields
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-ns-custom-fields
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sanitizehtml
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-rss
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-soundpack-default
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-spam-be-gone
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-spam-be-gone
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-spam-be-gone
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-sso-facebook
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-facebook
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-sso-github
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-github
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-sso-google
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-google
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-subcategories-checker
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 less file(s) for plugin nodebb-plugin-subcategories-checker
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-subcategories-checker
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-subcategories-checker
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-subcategories-checker
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-sso-twitter
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-twitter
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-text2speech
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-text2speech
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-subcategory-reordering
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-subcategory-reordering
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-topic-tags
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-user-invitations
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-user-invitations
+28/7 19:36 [6432] - [32minfo[39m: [User Invitations] Synced settings:
 { defaultInvitations: 10,
   restrictRegistration: 0,
   inviteGroup: 'TsingHua Alumni',
   invitedUsers: [] }
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-user-invitations
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 less file(s) for plugin nodebb-plugin-upvote-notifications
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-upvote-notifications
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-upvote-notifications
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-wechat-share
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-wechat-share
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-clicky
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-clicky
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-write-api
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-write-api
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-write-api
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-linkcheck
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-linkcheck
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-linkcheck
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-rewards-essentials
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-rewards-essentials
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-mega-colors
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 2 js file(s) for plugin nodebb-plugin-mega-colors
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-mega-colors
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-widget-essentials
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-widget-essentials
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 css file(s) for plugin nodebb-widget-ns-birthdays
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-widget-ns-birthdays
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-widget-ns-birthdays
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-rainbows
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-rainbows
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-rainbows
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 0 css file(s) for plugin nodebb-widget-ns-stats
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-widget-ns-stats
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-widget-ns-stats
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-secure-images
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sketchfab
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-slideshare
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-spotify
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-user-invitations
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 less file(s) for plugin nodebb-plugin-upvote-notifications
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-upvote-notifications
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-upvote-notifications
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-wechat-share
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-wechat-share
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-clicky
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-clicky
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-write-api
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-write-api
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-write-api
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-linkcheck
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-linkcheck
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-linkcheck
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-rewards-essentials
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-rewards-essentials
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-mega-colors
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 2 js file(s) for plugin nodebb-plugin-mega-colors
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-mega-colors
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-widget-essentials
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-widget-essentials
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 css file(s) for plugin nodebb-widget-ns-birthdays
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-widget-ns-birthdays
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-widget-ns-birthdays
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-rainbows
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-rainbows
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-rainbows
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 css file(s) for plugin nodebb-widget-ns-stats
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-widget-ns-stats
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-widget-ns-stats
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-secure-images
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sketchfab
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-ns-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 0 js file(s) for plugin nodebb-plugin-ns-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-ns-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-ns-embed
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-slideshare
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-spotify
 video starten
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-videoplayer
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-videoplayer
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-videoplayer
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-twitter-hashtag
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-custom-homepg
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-linkedin-oauth2
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-videoplayer
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-videoplayer
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-videoplayer
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-search
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-twitter-hashtag
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-custom-homepg
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-sso-linkedin-oauth2
 
-22/7 18:45 [12069] - [33mwarn[39m: [plugins/load] The following plugins may not be compatible with your version of NodeBB. This may cause unintended behaviour or crashing. In the event of an unresponsive NodeBB caused by this plugin, run `./nodebb reset -p PLUGINNAME` to disable it.
+28/7 19:36 [6432] - [33mwarn[39m: [plugins/load] The following plugins may not be compatible with your version of NodeBB. This may cause unintended behaviour or crashing. In the event of an unresponsive NodeBB caused by this plugin, run `./nodebb reset -p PLUGINNAME` to disable it.
 [33m  * [39mnodebb-plugin-email
 [33m  * [39mnodebb-plugin-linkcheck
 [33m  * [39mnodebb-plugin-rainbows
@@ -190,70 +178,65 @@ video starten
 [33m  * [39mnodebb-plugin-twitter-hashtag
 [33m  * [39mnodebb-plugin-sso-linkedin-oauth2
 
-22/7 18:45 [12069] - [32minfo[39m: [plugins] Plugins OK
-22/7 18:45 [12069] - [36mverbose[39m: [meta/js] 14 of 14 modules bridged
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-theme-material)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-audio-embed)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-cards)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-category-notifications)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-composer-default)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-category-sort-by-votes)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] /partials/topics_list.tpl replaced by nodebb-plugin-category-sort-by-votes
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] /partials/category/sort.tpl replaced by nodebb-plugin-category-sort-by-votes
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-dbsearch)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-custom-pages)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-email)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-embed-gmap)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-emoji-extended)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-featured-threads)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-github-embed)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-google-analytics)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-ignore-users)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-markdown)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-meetup)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-newuser-approval)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-newsletter)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-ns-custom-fields)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-ns-likes)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-ns-utils)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sanitizehtml)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-rss)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-shortcuts)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-spam-be-gone)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-facebook)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-github)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-google)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-twitter)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-subcategory-reordering)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-topic-tags)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-user-invitations)
-22/7 18:45 [12069] - [33mwarn[39m: [plugins] Skipping /home/ec2-user/newTHAA/node_modules/nodebb-plugin-user-invitations/public/templates/admin/plugins/style.css by plugin nodebb-plugin-user-invitations
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-wechat-share)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-clicky)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-write-api)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-widget-essentials)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-widget-ns-birthdays)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-rainbows)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-widget-ns-stats)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-custom-homepg)
-22/7 18:45 [12069] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-linkedin-oauth2)
-22/7 18:45 [12069] - [36mverbose[39m: [meta/templates] Compiling templates
-22/7 18:45 [12069] - [33mwarn[39m: [meta/templates] Partial not loaded: partials/account_menu.tpl
-22/7 18:45 [12069] - [36mverbose[39m: [meta/templates] Successfully compiled templates.
-22/7 18:45 [12069] - [36mverbose[39m: [meta/js] Minifying nodebb.min.js
-22/7 18:45 [12069] - [36mverbose[39m: [meta/js] nodebb.min.js minification complete
-22/7 18:45 [12069] - [36mverbose[39m: [meta/js] Minifying acp.min.js
-22/7 18:45 [12069] - [36mverbose[39m: [meta/js] acp.min.js minification complete
-22/7 18:45 [12069] - [36mverbose[39m: [meta/css] Minifying LESS/CSS
-22/7 18:45 [12069] - [36mverbose[39m: [meta/css] stylesheet.css committed to disk.
-22/7 18:45 [12069] - [36mverbose[39m: [meta/css] admin.css committed to disk.
-22/7 18:45 [12069] - [32minfo[39m: NodeBB Ready
-[cluster] Child Process (12069) has exited (code: 0, signal: null)
-0.0.0:80
-22/7 18:45 [12043] - [36mverbose[39m: [sounds] Sounds OK
-22/7 18:45 [12043] - [36mverbose[39m: [meta/blacklist] Loading 0 blacklist rules
-info: EmbedGMap API Key: 
-22/7 18:45 [12043] - [32minfo[39m: [Newsletter] Initializing Newsletter...
+28/7 19:36 [6432] - [32minfo[39m: [plugins] Plugins OK
+28/7 19:36 [6432] - [36mverbose[39m: [meta/js] 14 of 14 modules bridged
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-theme-material)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-audio-embed)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-cards)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-category-notifications)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-composer-default)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-category-sort-by-votes)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] /partials/topics_list.tpl replaced by nodebb-plugin-category-sort-by-votes
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] /partials/category/sort.tpl replaced by nodebb-plugin-category-sort-by-votes
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-dbsearch)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-custom-pages)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-email)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-embed-gmap)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-emoji-extended)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-featured-threads)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-github-embed)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-google-analytics)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-markdown)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-meetup)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-newuser-approval)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-newsletter)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-ns-custom-fields)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sanitizehtml)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-rss)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-spam-be-gone)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-facebook)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-github)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-google)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-twitter)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-subcategory-reordering)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-topic-tags)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-user-invitations)
+28/7 19:36 [6432] - [33mwarn[39m: [plugins] Skipping /home/ec2-user/newTHAA/node_modules/nodebb-plugin-user-invitations/public/templates/admin/plugins/style.css by plugin nodebb-plugin-user-invitations
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-wechat-share)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-clicky)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-write-api)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-widget-essentials)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-widget-ns-birthdays)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-rainbows)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-widget-ns-stats)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-ns-embed)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-custom-homepg)
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] Loading templates (nodebb-plugin-sso-linkedin-oauth2)
+28/7 19:36 [6432] - [36mverbose[39m: [meta/templates] Compiling templates
+28/7 19:36 [6432] - [36mverbose[39m: [meta/templates] Successfully compiled templates.
+28/7 19:36 [6432] - [36mverbose[39m: [meta/js] Minifying nodebb.min.js
+28/7 19:36 [6432] - [36mverbose[39m: [meta/js] nodebb.min.js minification complete
+28/7 19:36 [6432] - [36mverbose[39m: [meta/js] Minifying acp.min.js
+28/7 19:36 [6432] - [36mverbose[39m: [meta/js] acp.min.js minification complete
+28/7 19:36 [6432] - [36mverbose[39m: [meta/css] Minifying LESS/CSS
+28/7 19:36 [6432] - [36mverbose[39m: [meta/css] stylesheet.css committed to disk.
+28/7 19:36 [6432] - [36mverbose[39m: [meta/css] admin.css committed to disk.
+28/7 19:36 [6432] - [32minfo[39m: NodeBB Ready
+28/7 19:36 [6432] - [32minfo[39m: NodeBB is now listening on: 0.0.0.0:80
+28/7 19:36 [6432] - [36mverbose[39m: [sounds] Sounds OK
+28/7 19:36 [6432] - [36mverbose[39m: [meta/blacklist] Loading 0 blacklist rules
+info: EmbedGMap API Key: AIzaSyADefsqFddWI5F8MfaLtMtQSNv84gTrmn8
+28/7 19:36 [6432] - [32minfo[39m: [Newsletter] Initializing Newsletter...
 { sendInvitation: [Function: sendInvitation],
   getUserInvitations: [Function: getUserInvitations],
   isInvited: [Function: isInvited],
@@ -268,371 +251,264 @@ info: EmbedGMap API Key:
      userUninvite: [Function: userUninvite],
      adminSend: [Function: adminSend],
      adminReinvite: [Function: adminReinvite] } }
-22/7 18:45 [12043] - [36mverbose[39m: [plugins/custom-fields] Settings are loaded filterTopics=false
-22/7 18:45 [12043] - [32minfo[39m: [plugins/spam-be-gone] Settings loaded
-22/7 18:45 [12043] - [36mverbose[39m: [plugins/subcategory-reordering] Settings reloaded.
-22/7 18:45 [12043] - [36mverbose[39m: [plugins/custom-fields] Plugin is initiated successfully
-22/7 18:45 [12043] - [36mverbose[39m: [widgets/stats] Widget Template "settings" is loaded
-22/7 18:45 [12043] - [36mverbose[39m: [widgets/birthdays] Widget Template "settings" is loaded
-22/7 18:45 [12043] - [36mverbose[39m: [widgets/stats] Widget Template "view" is loaded
-22/7 18:45 [12043] - [36mverbose[39m: [widgets/birthdays] Widget Template "view" is loaded
-22/7 18:45 [12043] - [36mverbose[39m: [widgets/birthdays] Widget is initiated successfully
-22/7 18:45 [12043] - [36mverbose[39m: [hotswap] Router with id `custom-pages` replaced successfully
-22/7 18:45 [12043] - [36mverbose[39m: [widgets/stats] Widget is initiated successfully
-22/7 18:45 [12043] - [36mverbose[39m: [hotswap] Router with id `plugins` replaced successfully
-22/7 18:45 [12043] - [36mverbose[39m: [plugins] All plugins reloaded and rerouted
-22/7 18:45 [12043] - [36mverbose[39m: [hotswap] Router with id `auth` replaced successfully
-22/7 18:45 [12043] - [36mverbose[39m: [widgets/stats] Initial job is started
-22/7 18:45 [12043] - [36mverbose[39m: [widgets/birthdays] Users to process: 3
-22/7 18:45 [12043] - [36mverbose[39m: [widgets/birthdays] Initial job is finished, birthdays: 0
-22/7 19:43 [12043] - [33mwarn[39m: Route requested but not found: /ubernew/
-22/7 20:25 [12043] - [33mwarn[39m: Route requested but not found: /ubernew/
-23/7 00:00 [12043] - [32minfo[39m: [plugin-rss] posting, http://feeds.feedburner.com/TechCrunch/fundings-exits - title: India’s Treebo Hotels raises $17 million for its budget hotel network, published date: 2016-07-22T12:11:14Z
-14 3
-23/7 00:00 [12043] - [36mverbose[39m: [plugins/subcategory-reordering] Floating cid 14 to the top of cid 3.
-23/7 00:00 [12043] - [32minfo[39m: [plugin-rss] posting, http://feeds.feedburner.com/TechCrunch/fundings-exits - title: Rocket Internet’s GFG closes $365M down round as external investors shy away, published date: 2016-07-22T07:05:56Z
-14 3
-23/7 00:00 [12043] - [36mverbose[39m: [plugins/subcategory-reordering] Floating cid 14 to the top of cid 3.
-23/7 00:00 [12043] - [32minfo[39m: [plugin-rss] posting, http://feeds.feedburner.com/TechCrunch/fundings-exits - title: KK Fund announces second fund for early-stage startups in Southeast Asia, published date: 2016-07-22T05:05:38Z
-14 3
-23/7 00:00 [12043] - [36mverbose[39m: [plugins/subcategory-reordering] Floating cid 14 to the top of cid 3.
-23/7 00:00 [12043] - [32minfo[39m: [plugin-rss] posting, http://feeds.feedburner.com/TechCrunch/fundings-exits - title: Impinj soars 28% in internet-of-things IPO, published date: 2016-07-21T19:51:24Z
-14 3
-23/7 00:00 [12043] - [36mverbose[39m: [plugins/subcategory-reordering] Floating cid 14 to the top of cid 3.
-23/7 00:00 [12043] - [32minfo[39m: [plugin-rss] posting, http://feeds.feedburner.com/TechCrunch/fundings-exits - title: A seed grows in Boston, published date: 2016-07-21T13:00:02Z
-14 3
-23/7 00:00 [12043] - [36mverbose[39m: [plugins/subcategory-reordering] Floating cid 14 to the top of cid 3.
-23/7 00:10 [12043] - [36mverbose[39m: [widgets/birthdays] Job is launched
-23/7 00:10 [12043] - [36mverbose[39m: [widgets/birthdays] Users to process: 3
-23/7 00:10 [12043] - [36mverbose[39m: [widgets/birthdays] Job is finished, birthdays: 0
-23/7 00:15 [12043] - [36mverbose[39m: [widgets/stats] Job is launched
-23/7 00:15 [12043] - [36mverbose[39m: [widgets/stats] Job is finished
-23/7 14:46 [12043] - [33mwarn[39m: Route requested but not found: /ubernew
-23/7 17:00 [12043] - [36mverbose[39m: [user.startJobs] Digest job (daily) started.
-23/7 17:00 [12043] - [36mverbose[39m: [user/jobs] No users subscribing to digest (day). Digest not sent.
-23/7 17:50 [12043] - [33mwarn[39m: Route requested but not found: /ubernew
-24/7 00:10 [12043] - [36mverbose[39m: [widgets/birthdays] Job is launched
-24/7 00:10 [12043] - [36mverbose[39m: [widgets/birthdays] Users to process: 3
-24/7 00:10 [12043] - [36mverbose[39m: [widgets/birthdays] Job is finished, birthdays: 0
-24/7 00:15 [12043] - [36mverbose[39m: [widgets/stats] Job is launched
-24/7 00:15 [12043] - [36mverbose[39m: [widgets/stats] Job is finished
-24/7 04:34 [12043] - [33mwarn[39m: Route requested but not found: /vendor/
-24/7 04:34 [12043] - [33mwarn[39m: Route requested but not found: /client
-24/7 04:34 [12043] - [33mwarn[39m: Route requested but not found: /plugins
-24/7 04:35 [12043] - [33mwarn[39m: Route requested but not found: /src/modules/
-24/7 05:50 [12043] - [33mwarn[39m: Route requested but not found: /ubernew
-24/7 06:25 [12043] - [33mwarn[39m: Route requested but not found: /category/admin
-24/7 06:26 [12043] - [33mwarn[39m: Route requested but not found: /category/client
-24/7 07:28 [12043] - [33mwarn[39m: Route requested but not found: /ubernew
-24/7 07:57 [12043] - [33mwarn[39m: Route requested but not found: /user
-24/7 07:57 [12043] - [33mwarn[39m: Route requested but not found: /topic/admin
-24/7 07:57 [12043] - [33mwarn[39m: Route requested but not found: /topic/client
-24/7 09:10 [12043] - [33mwarn[39m: Route requested but not found: /topic/plugins
-24/7 09:10 [12043] - [33mwarn[39m: Route requested but not found: /topic/vendor
-24/7 11:42 [12043] - [33mwarn[39m: Route requested but not found: /x
-24/7 14:48 [12043] - [36mverbose[39m: [widgets/stats] User 1 is online
-24/7 14:50 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-category-sort-by-votes@0.1.2 
+28/7 19:36 [6432] - [36mverbose[39m: [plugins/custom-fields] Settings are loaded filterTopics=false
+28/7 19:36 [6432] - [32minfo[39m: [plugins/spam-be-gone] Settings loaded
+28/7 19:36 [6432] - [36mverbose[39m: [plugins/subcategory-reordering] Settings reloaded.
+28/7 19:36 [6432] - [36mverbose[39m: [plugins/custom-fields] Plugin is initiated successfully
+28/7 19:36 [6432] - [36mverbose[39m: [plugins/embed] Updating rules...
+28/7 19:36 [6432] - [36mverbose[39m: [plugins/embed] Updating rule list, total rules: 0
+28/7 19:36 [6432] - [36mverbose[39m: [widgets/birthdays] Widget Template "settings" is loaded
+28/7 19:36 [6432] - [36mverbose[39m: [widgets/birthdays] Widget Template "view" is loaded
+28/7 19:36 [6432] - [36mverbose[39m: [widgets/stats] Widget Template "settings" is loaded
+28/7 19:36 [6432] - [36mverbose[39m: [widgets/stats] Widget Template "view" is loaded
+28/7 19:36 [6432] - [36mverbose[39m: [widgets/birthdays] Widget is initiated successfully
+28/7 19:36 [6432] - [36mverbose[39m: [hotswap] Router with id `custom-pages` replaced successfully
+28/7 19:36 [6432] - [36mverbose[39m: [widgets/stats] Widget is initiated successfully
+28/7 19:36 [6432] - [36mverbose[39m: [hotswap] Router with id `plugins` replaced successfully
+28/7 19:36 [6432] - [36mverbose[39m: [plugins] All plugins reloaded and rerouted
+28/7 19:36 [6432] - [36mverbose[39m: [hotswap] Router with id `auth` replaced successfully
+28/7 19:36 [6432] - [36mverbose[39m: [widgets/stats] Initial job is started
+28/7 19:36 [6432] - [36mverbose[39m: [widgets/birthdays] Users to process: 4
+28/7 19:36 [6432] - [36mverbose[39m: [widgets/birthdays] Initial job is finished, birthdays: 0
+28/7 19:42 [6432] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+28/7 19:42 [6432] - [32minfo[39m: [app] Database connection closed.
+28/7 19:42 [6432] - [32minfo[39m: [app] Web server closed to connections.
+28/7 19:42 [6432] - [32minfo[39m: [app] Shutdown complete.
 
+NodeBB v1.1.0 Copyright (C) 2013-2014 NodeBB Inc.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
 
-24/7 14:50 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-composer-default@4.0.11 
-
-
-24/7 14:51 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-markdown@6.0.1 
-
-
-24/7 14:51 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-newsletter@0.6.2 
-
-
-24/7 14:51 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-ignore-users@1.1.1 
-
-
-24/7 14:51 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-mega-colors@0.10.16 
-
-
-24/7 14:51 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-theme-material@2.7.3 
-
-
-24/7 14:51 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└─┬ nodebb-plugin-calendar@1.0.0-alpha.5 
-  └─┬ bootstrap-calendar@0.2.5  (git://github.com/serhioromano/bootstrap-calendar.git#6117d44f05fa2884069b7189fda59ff401075d0c)
-    └─┬ grunt-contrib-less@0.7.0
-      └─┬ less@1.4.2
-        └─┬ request@2.74.0 
-          └── tough-cookie@2.3.0 
-
-
-24/7 14:51 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-newsletter@0.6.2 
-
-
-24/7 14:52 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-theme-material@2.7.3 
-
-
-24/7 14:52 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-mega-colors@0.10.16 
-
-
-24/7 14:52 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-markdown@6.0.1 
-
-
-24/7 14:52 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└── nodebb-plugin-ignore-users@1.1.1 
-
-
-24/7 14:54 [12043] - [32minfo[39m: [plugins] nodebb-test@1.1.0 /home/ec2-user/newTHAA
-└─┬ nodebb-plugin-calendar@1.0.0-alpha.5 
-  └── bootstrap-calendar@0.2.5  (git://github.com/serhioromano/bootstrap-calendar.git#6117d44f05fa2884069b7189fda59ff401075d0c)
-
-
-[cluster] Restarting...
-24/7 14:58 [12043] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
-24/7 14:58 [12043] - [32minfo[39m: [app] Database connection closed.
-24/7 14:58 [12043] - [32minfo[39m: [app] Web server closed to connections.
-24/7 14:58 [12043] - [32minfo[39m: [app] Shutdown complete.
 Clustering enabled: Spinning up 1 process(es).
 
-[cluster] Child Process (12043) has exited (code: 0, signal: null)
-24/7 14:58 [25264] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
-24/7 14:58 [25264] - [32minfo[39m: Time: Sun Jul 24 2016 14:58:59 GMT-0400 (EDT)
-24/7 14:58 [25264] - [32minfo[39m: Initializing NodeBB v1.1.0
-24/7 14:58 [25264] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
-24/7 14:58 [25264] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
-24/7 14:59 [25264] - [36mverbose[39m: Checking dependencies for outdated modules
-24/7 14:59 [25264] - [36mverbose[39m: [notifications.init] Registering jobs.
-24/7 14:59 [25264] - [32minfo[39m: [themes] Using theme nodebb-theme-material
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Initializing plugins system
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 2 js file(s) for plugin nodebb-theme-material
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-theme-material
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-audio-embed
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-cards
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-cards
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-cards
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-category-notifications
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-notifications
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 10 AMD-style module(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-composer-default
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-sort-by-votes
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-dbsearch
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-custom-pages
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-custom-pages
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-custom-pages
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-deny-moderator-access
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-email
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-embed-gmap
-info: EmbedGMap settings loaded
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-embed-gmap
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-apple
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-emoji-extended
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-emoji-extended
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-extended
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-essence
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-essence
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-essence
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-one
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-featured-threads
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-featured-threads
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-featured-threads
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-async
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-async
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-github-embed
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-github-embed
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-lodash
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-lodash
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-google-analytics
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-analytics
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-forms
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-search
-24/7 14:59 [25264] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-htmlcleaner
-[cluster] Child Process (25264) has exited (code: 7, signal: null)
+
+NodeBB v1.1.0 Copyright (C) 2013-2014 NodeBB Inc.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+28/7 19:42 [6664] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
+28/7 19:42 [6664] - [32minfo[39m: Time: Thu Jul 28 2016 19:42:59 GMT-0400 (EDT)
+28/7 19:42 [6664] - [32minfo[39m: Initializing NodeBB v1.1.0
+28/7 19:42 [6664] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
+28/7 19:42 [6664] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
+/home/ec2-user/newTHAA/src/user/picture.js:46
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at /home/ec2-user/newTHAA/src/user.js:32:2
+    at Object.<anonymous> (/home/ec2-user/newTHAA/src/user.js:318:2)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+[cluster] Child Process (6664) has exited (code: 7, signal: null)
 [cluster] Spinning up another process...
-24/7 14:59 [25274] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
-24/7 14:59 [25274] - [32minfo[39m: Time: Sun Jul 24 2016 14:59:01 GMT-0400 (EDT)
-24/7 14:59 [25274] - [32minfo[39m: Initializing NodeBB v1.1.0
-24/7 14:59 [25274] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
-24/7 14:59 [25274] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
-24/7 14:59 [25274] - [36mverbose[39m: Checking dependencies for outdated modules
-24/7 14:59 [25274] - [36mverbose[39m: [notifications.init] Registering jobs.
-24/7 14:59 [25274] - [32minfo[39m: [themes] Using theme nodebb-theme-material
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Initializing plugins system
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 2 js file(s) for plugin nodebb-theme-material
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-theme-material
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-audio-embed
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-cards
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-cards
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-cards
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-category-notifications
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-notifications
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 10 AMD-style module(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-composer-default
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-sort-by-votes
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-dbsearch
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-custom-pages
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-custom-pages
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-custom-pages
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-deny-moderator-access
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-email
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-embed-gmap
-info: EmbedGMap settings loaded
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-embed-gmap
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-apple
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-emoji-extended
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-emoji-extended
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-extended
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-essence
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-essence
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-essence
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-one
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-featured-threads
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-featured-threads
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-featured-threads
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-async
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-async
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-github-embed
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-github-embed
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-lodash
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-lodash
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-google-analytics
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-analytics
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-forms
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-search
-24/7 14:59 [25274] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-htmlcleaner
-[cluster] Child Process (25274) has exited (code: 7, signal: null)
+28/7 19:43 [6671] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
+28/7 19:43 [6671] - [32minfo[39m: Time: Thu Jul 28 2016 19:43:01 GMT-0400 (EDT)
+28/7 19:43 [6671] - [32minfo[39m: Initializing NodeBB v1.1.0
+28/7 19:43 [6671] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
+28/7 19:43 [6671] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
+/home/ec2-user/newTHAA/src/user/picture.js:46
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at /home/ec2-user/newTHAA/src/user.js:32:2
+    at Object.<anonymous> (/home/ec2-user/newTHAA/src/user.js:318:2)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+[cluster] Child Process (6671) has exited (code: 7, signal: null)
 [cluster] Spinning up another process...
-24/7 14:59 [25284] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
-24/7 14:59 [25284] - [32minfo[39m: Time: Sun Jul 24 2016 14:59:03 GMT-0400 (EDT)
-24/7 14:59 [25284] - [32minfo[39m: Initializing NodeBB v1.1.0
-24/7 14:59 [25284] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
-24/7 14:59 [25284] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
-24/7 14:59 [25284] - [36mverbose[39m: Checking dependencies for outdated modules
-24/7 14:59 [25284] - [36mverbose[39m: [notifications.init] Registering jobs.
-24/7 14:59 [25284] - [32minfo[39m: [themes] Using theme nodebb-theme-material
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Initializing plugins system
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 2 js file(s) for plugin nodebb-theme-material
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-theme-material
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-audio-embed
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-cards
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-cards
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-cards
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-category-notifications
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-notifications
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 10 AMD-style module(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-composer-default
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-sort-by-votes
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-dbsearch
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-custom-pages
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-custom-pages
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-custom-pages
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-deny-moderator-access
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-email
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-embed-gmap
-info: EmbedGMap settings loaded
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-embed-gmap
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-apple
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-emoji-extended
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-emoji-extended
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-extended
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-essence
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-essence
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-essence
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-one
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-featured-threads
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-featured-threads
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-featured-threads
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-async
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-async
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-github-embed
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-github-embed
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-lodash
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-lodash
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-google-analytics
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-analytics
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-forms
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-search
-24/7 14:59 [25284] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-htmlcleaner
-[cluster] Child Process (25284) has exited (code: 7, signal: null)
+28/7 19:43 [6678] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
+28/7 19:43 [6678] - [32minfo[39m: Time: Thu Jul 28 2016 19:43:02 GMT-0400 (EDT)
+28/7 19:43 [6678] - [32minfo[39m: Initializing NodeBB v1.1.0
+28/7 19:43 [6678] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
+28/7 19:43 [6678] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
+/home/ec2-user/newTHAA/src/user/picture.js:46
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at /home/ec2-user/newTHAA/src/user.js:32:2
+    at Object.<anonymous> (/home/ec2-user/newTHAA/src/user.js:318:2)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+[cluster] Child Process (6678) has exited (code: 7, signal: null)
 [cluster] Spinning up another process...
-24/7 14:59 [25294] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
-24/7 14:59 [25294] - [32minfo[39m: Time: Sun Jul 24 2016 14:59:05 GMT-0400 (EDT)
-24/7 14:59 [25294] - [32minfo[39m: Initializing NodeBB v1.1.0
-24/7 14:59 [25294] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
-24/7 14:59 [25294] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
-24/7 14:59 [25294] - [36mverbose[39m: Checking dependencies for outdated modules
-24/7 14:59 [25294] - [36mverbose[39m: [notifications.init] Registering jobs.
-24/7 14:59 [25294] - [32minfo[39m: [themes] Using theme nodebb-theme-material
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Initializing plugins system
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 2 js file(s) for plugin nodebb-theme-material
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-theme-material
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-audio-embed
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-audio-embed
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-cards
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-cards
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-cards
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-category-notifications
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-notifications
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 10 AMD-style module(s) for plugin nodebb-plugin-composer-default
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-composer-default
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-category-sort-by-votes
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-dbsearch
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-custom-pages
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-custom-pages
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-custom-pages
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-deny-moderator-access
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-email
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 css file(s) for plugin nodebb-plugin-embed-gmap
-info: EmbedGMap settings loaded
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-embed-gmap
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-apple
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-emoji-extended
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-emoji-extended
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-extended
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-essence
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-essence
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-essence
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-emoji-one
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-featured-threads
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-featured-threads
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-featured-threads
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-async
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-async
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 less file(s) for plugin nodebb-plugin-github-embed
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-github-embed
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-frontend-lodash
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-frontend-lodash
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Found 1 js file(s) for plugin nodebb-plugin-google-analytics
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-analytics
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-forms
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-google-search
-24/7 14:59 [25294] - [36mverbose[39m: [plugins] Loaded plugin: nodebb-plugin-htmlcleaner
+28/7 19:43 [6684] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
+28/7 19:43 [6684] - [32minfo[39m: Time: Thu Jul 28 2016 19:43:03 GMT-0400 (EDT)
+28/7 19:43 [6684] - [32minfo[39m: Initializing NodeBB v1.1.0
+28/7 19:43 [6684] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
+28/7 19:43 [6684] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
+/home/ec2-user/newTHAA/src/user/picture.js:46
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at /home/ec2-user/newTHAA/src/user.js:32:2
+    at Object.<anonymous> (/home/ec2-user/newTHAA/src/user.js:318:2)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+3 restarts in 10 seconds, most likely an error on startup. Halting.
+
+NodeBB v1.1.0 Copyright (C) 2013-2014 NodeBB Inc.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+28/7 19:43 [6708] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
+28/7 19:43 [6708] - [32minfo[39m: Time: Thu Jul 28 2016 19:43:10 GMT-0400 (EDT)
+28/7 19:43 [6708] - [32minfo[39m: Initializing NodeBB v1.1.0
+28/7 19:43 [6708] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
+28/7 19:43 [6708] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
+/home/ec2-user/newTHAA/src/user/picture.js:46
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at /home/ec2-user/newTHAA/src/user.js:32:2
+    at Object.<anonymous> (/home/ec2-user/newTHAA/src/user.js:318:2)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+[cluster] Child Process (6708) has exited (code: 7, signal: null)
+[cluster] Spinning up another process...
+28/7 19:43 [6715] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
+28/7 19:43 [6715] - [32minfo[39m: Time: Thu Jul 28 2016 19:43:11 GMT-0400 (EDT)
+28/7 19:43 [6715] - [32minfo[39m: Initializing NodeBB v1.1.0
+28/7 19:43 [6715] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
+28/7 19:43 [6715] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
+/home/ec2-user/newTHAA/src/user/picture.js:46
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at /home/ec2-user/newTHAA/src/user.js:32:2
+    at Object.<anonymous> (/home/ec2-user/newTHAA/src/user.js:318:2)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+[cluster] Child Process (6715) has exited (code: 7, signal: null)
+[cluster] Spinning up another process...
+28/7 19:43 [6721] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
+28/7 19:43 [6721] - [32minfo[39m: Time: Thu Jul 28 2016 19:43:12 GMT-0400 (EDT)
+28/7 19:43 [6721] - [32minfo[39m: Initializing NodeBB v1.1.0
+28/7 19:43 [6721] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
+28/7 19:43 [6721] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
+/home/ec2-user/newTHAA/src/user/picture.js:46
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at /home/ec2-user/newTHAA/src/user.js:32:2
+    at Object.<anonymous> (/home/ec2-user/newTHAA/src/user.js:318:2)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+[cluster] Child Process (6721) has exited (code: 7, signal: null)
+[cluster] Spinning up another process...
+28/7 19:43 [6727] - [36mverbose[39m: * using configuration stored in: /home/ec2-user/newTHAA/config.json
+28/7 19:43 [6727] - [32minfo[39m: Time: Thu Jul 28 2016 19:43:13 GMT-0400 (EDT)
+28/7 19:43 [6727] - [32minfo[39m: Initializing NodeBB v1.1.0
+28/7 19:43 [6727] - [36mverbose[39m: * using redis store at 127.0.0.1:6379
+28/7 19:43 [6727] - [36mverbose[39m: * using themes stored in: /home/ec2-user/newTHAA/node_modules
+/home/ec2-user/newTHAA/src/user/picture.js:46
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at /home/ec2-user/newTHAA/src/user.js:32:2
+    at Object.<anonymous> (/home/ec2-user/newTHAA/src/user.js:318:2)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
 3 restarts in 10 seconds, most likely an error on startup. Halting.

@@ -44,7 +44,7 @@ module.exports = function(User) {
 				}
 
 				var filename = updateUid + '-profileimg' + (keepAllVersions ? '-' + Date.now() : '') + (convertToPNG ? '.png' : extension);
-
+				var filename = updateUid + '-profileimg-' + Date.now() + (convertToPNG ? '.png' : extension);
 				async.waterfall([
 					function(next) {
 						file.isFileTypeAllowed(picture.path, next);
@@ -170,6 +170,7 @@ module.exports = function(User) {
 				}
 
 				var filename = data.uid + '-profilecover' + (keepAllVersions ? '-' + Date.now() : '');
+				var filename = data.uid + '-profilecover-' + Date.now();
 				async.waterfall([
 					function (next) {
 						file.isFileTypeAllowed(data.file.path, next);
